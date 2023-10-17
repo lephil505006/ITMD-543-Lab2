@@ -40,8 +40,21 @@ p {
     text-align: center;
 }
 
+.dot {
+    width: 10px;
+    height: 10px;
+    background: red;
+    border-radius: 50%;
+    position: absolute;
+}
+
 .me {
     height: 400px;
     width: 300px;
     border-radius: 10px;
+}
+
+#clock {
+    background-color: #a0f58f;
+    padding: 15px;
 }
