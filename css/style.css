@@ -1,6 +1,43 @@
 /* font family */
 body {
     font-family: "Roboto", Arial, Helvetica, sans-serif;
+    background-color: #FFFDD0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav-list {
+    background: rgb(231, 240, 109);
+    top: 0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    list-style-type: none;
+    align-items: center;
+    border-radius: 10px;
+    width: 60%;
+}
+
+.nav-item {
+    display: flex;
+    font-size: 1.25em;
+    /* 20px */
+    text-decoration: none;
+    padding: 0.6875em 1.5625em;
+    /*11px 25px*/
+    color: black;
+    text-align: center;
+}
+
+.nav-item a:hover {
+    background-color: #a0f58f;
+}
+
+p {
+    text-align: center;
 }
 
 .me {
