@@ -2,3 +2,9 @@
 body {
     font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
+
+.me {
+    height: 400px;
+    width: 300px;
+    border-radius: 10px;
+}
